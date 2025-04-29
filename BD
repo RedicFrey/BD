@@ -1,0 +1,12 @@
+  show databases;
+  use dbpais;
+  show tables;
+  desc tbpais;
+  desc tbestado;
+  insert into tbpais (idPais, nome, sigla, idiome) values (null, 'Brasil', 'BRA', 'PT');
+  insert into tbpais (idPais, nome, sigla, idiome) values (null, 'Argentina', 'ARG', 'ES');
+  select * from tbpais;
+  select * from tbestado;
+  insert into tbestado (idEstado, nome, sigla, regiao, pais_id) values (null, 'Minas Gerais', 'MG', 'Sudeste', 1);
+  insert into tbestado (idEstado, nome, sigla, regiao, pais_id) values (null, 'São Paulo', 'SP', 'Sudeste', 1);
+  insert into tbestado (idEstado, nome, sigla, regiao, pais_id) values (null, 'Acre', 'AC', 'Norte', 4);
